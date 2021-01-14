@@ -8,6 +8,10 @@ Install Vagrant:
 Useful command:
 - `vagrant up` - Run Vagrantfile on current directory
 - `vagrant ssh` - Connect through ssh on virtual machine
+- `vagrant suspend` - Save VM state and suspend execution
+- `vagrant halt` - Graceful shutdown of VM
 - `vagrant destroy -f` - Destroy virtual machine
+- `vagrant plugin install vagrant-share` - Install Vagrant Share plugin to enable environment sharing
+- `vagrant share` - Share environment
 
 
